@@ -2,12 +2,7 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "framework": "vite",
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node@3.2.0"
-    }
-  },
   "env": {
-    "VITE_API_URL": "/api"
+    "VITE_API_URL": "@VITE_API_URL"
   }
 }
