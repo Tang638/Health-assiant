@@ -1,0 +1,14 @@
+﻿.env
+.env.*
+node_modules/
+backend/node_modules/
+dist/
+backend/dist/
+*.db
+*.db-journal
+backend/prisma/dev.db
+*.log
+logs/
+backend/logs/
+.vscode/
+.DS_Store
