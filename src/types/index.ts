@@ -49,9 +49,9 @@ export interface Food {
   id: string;
   name: string;
   caloriesPer100g: number;
-  proteinPer100g: number;
-  carbsPer100g: number;
-  fatPer100g: number;
+  protein: number;
+  carbs: number;
+  fat: number;
   category: string;
 }
 
